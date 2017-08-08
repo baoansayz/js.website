@@ -1,6 +1,7 @@
 var x = 23;
-fname = prompt("What is your first name?");
-lname = prompt("What is your last name?");
+alert("x is name.js is " + x);
+//fname = prompt("What is your first name?");
+//lname = prompt("What is your last name?");
 function person(fname,lname,age,eyecolor)
 {
    this.firstname=fname;

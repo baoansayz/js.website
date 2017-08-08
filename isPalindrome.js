@@ -15,3 +15,6 @@ function isPalindrome(){
 	return true;
 }
 
+var x = 55;
+alert("calling x in name.js in isPalindrome "+ x);
+
