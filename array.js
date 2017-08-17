@@ -7,4 +7,10 @@ function poll(){
 	alert(a[0]);
 }
 
-poll("hello,secret");
+$.getJSON("https://jsonplaceholder.typicode.com/posts", function(person){
+
+    $.each(person, function(key, value){
+    	
+        document.write(key+": "+value.id+ " " + value.title + "<br />"); 
+    });
+});
